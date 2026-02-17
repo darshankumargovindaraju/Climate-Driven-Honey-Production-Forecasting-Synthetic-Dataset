@@ -44,7 +44,7 @@ The script is vectorized with NumPy for fast generation (~10 seconds for 200k ro
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/honey-production-dataset.git
+git clone https://github.com/darshankumargovindaraju/honey-production-dataset.git
 cd honey-production-dataset
 ```
 
