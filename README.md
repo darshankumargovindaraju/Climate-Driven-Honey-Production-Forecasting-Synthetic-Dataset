@@ -1,6 +1,6 @@
 # Climate-Driven-Honey-Production-Forecasting-Synthetic-Dataset
 Python script to generate a large-scale, realistic synthetic honey production dataset with 200,000+ rows and 51 feature columns. Includes climate, apiary management, environmental, and economic factors for machine learning, data science practice, predictive modeling, and climate-driven honey yield research.
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Dataset Summary](#dataset-summary)
@@ -76,7 +76,7 @@ print(df.head())
 
 ## Column Reference
 
-### 🕐 Temporal Features
+###  Temporal Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -86,7 +86,7 @@ print(df.head())
 | `quarter` | int | Calendar quarter (1–4) |
 | `season` | str | Season: Winter, Spring, Summer, Autumn |
 
-### 📍 Location Features
+###  Location Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -96,7 +96,7 @@ print(df.head())
 | `longitude` | float | Longitude (−120 to 120) |
 | `altitude_m` | float | Elevation above sea level in metres (0–2000) |
 
-### 🌦️ Weather Features
+### Weather Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -110,7 +110,7 @@ print(df.head())
 | `uv_index` | float | UV index (0–11), seasonally modelled |
 | `drought_index` | float | Drought severity (0 = no drought, 1 = extreme drought) |
 
-### 🌿 Environmental Features
+###  Environmental Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -121,7 +121,7 @@ print(df.head())
 | `nearby_crop_type` | str | Alfalfa, Canola, Sunflower, Orchard, None, Wheat |
 | `air_quality_index` | float | Air quality index (10–300), Gamma-distributed |
 
-### 🐝 Apiary & Colony Features
+###  Apiary & Colony Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -137,7 +137,7 @@ print(df.head())
 | `beekeeper_certification` | str | Certification level: None, Basic, Advanced |
 | `hive_inspection_score` | float | Overall hive health score from inspection (1–10) |
 
-### 💰 Economic Features
+###  Economic Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -146,7 +146,7 @@ print(df.head())
 | `maintenance_cost` | float | Total maintenance cost in USD |
 | `equipment_type` | str | Hive equipment type: Traditional, Semi-Modern, Modern |
 
-### ⚠️ Flag Features
+###  Flag Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -154,7 +154,7 @@ print(df.head())
 | `frost_risk_flag` | int | 1 if minimum temperature dropped below 0°C |
 | `heat_stress_flag` | int | 1 if average temperature exceeded 36°C |
 
-### 🎯 Target & Derived Features
+###  Target & Derived Features
 
 | Column | Type | Description |
 |---|---|---|
@@ -162,7 +162,7 @@ print(df.head())
 | `revenue` | float | Gross revenue in USD (production × price) |
 | `profit` | float | Net profit in USD (revenue − maintenance cost) |
 
-### 📈 Lag & Rolling Features
+###  Lag & Rolling Features
 
 | Column | Type | Description |
 |---|---|---|
